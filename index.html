@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Skills</title>
+  <link rel="stylesheet" href="./css/styel.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <script src="https://kit.fontawesome.com/aa41ddffc0.js" crossorigin="anonymous"></script>
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond&family=Inter&family=Poppins&display=swap"
+    rel="stylesheet" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            primary: "#F66962",
+            secondary: "#3A3A3A",
+          },
+        },
+      },
+    };
+  </script>
+</head>
+
+<body>
+  <main class="w-8/12 mx-auto">
+    <!--------------------------------
+         ----------------------------------
+       ----------- Header section------------
+         ----------------------------------
+         ------------------------------- -->
+    <header>
+      <!-- Navigation  -->
+
+      <nav class="flex flex-col md:flex-row items-center flex justify-between pt-12 ">
+        <img src="/images/logo/logo.png" alt="" />
+        <ul class="flex-start md:flex gap-x-8">
+          <li class="text-primary py-1 px-2 font-semibold border-b-2 border-primary">
+            <a href="">Home</a>
+          </li>
+          <li class="text-secondary py-1 px-2 text-lg font-semibold hover:text-primary duration-200">
+            <a href="">Course</a>
+          </li>
+          <li class="text-secondary py-1 px-2 text-lg font-semibold hover:text-primary duration-200">
+            <a href="">About us</a>
+          </li>
+          <li class="text-secondary py-1 px-2 text-lg font-semibold hover:text-primary duration-200">
+            <a href="">Blog</a>
+          </li>
+          <li class="text-secondary py-1 px-2 text-lg font-semibold hover:text-primary duration-200">
+            <a href="">Contact</a>
+          </li>
+        </ul>
+        <div class="flex flex-col md:flex-row md:gap-x-3">
+          <input
+            class="py-2 px-3 outline-none placeholder:text-primary text-base font-semibold border py-4 px-8 rounded-md border-primary"
+            type="text" placeholder="Search" />
+          <button class="bg-primary text-semibold text-white py-4 px-8 rounded-md">
+            Sing Up
+          </button>
+        </div>
+      </nav>
+
+      <!--------------------------------
+         ----------------------------------
+       ----------- banner section------------
+         ----------------------------------
+         ------------------------------- -->
+
+      <div class="mt-24 flex justify-between items-center flex flex-col md:flex-col lg:flex-row ">
+        <div>
+          <div>
+            <h1 class=" whitespace-nowrap text-4xl md:text-6xl font-black text-secondary">
+              Grow your
+              <mark class="bg-primary text-white px-1 leading-normal">Skills <br /></mark>
+              by
+              <span class="text-primary">learning</span>
+            </h1>
+            <p class="mt-5 mb-5 text-secondary">
+              It is a long established fact that a reader will be distracted
+              by the <br />
+              read more-or-less normal distribution of letters, as opposed to
+              <br />
+              using 'Content here, making it look like readable English
+            </p>
+
+            <!--------------------------------
+            ----------------------------------
+            ----------- Chack box ------------
+            ----------------------------------
+            ------------------------------- -->
+
+            <div>
+              <div class="flex items-center gap-x-3 mb-6 mt-8">
+                <i class="fa-regular fa-square-check text-2xl text-primary"></i>
+                <p class="text-secondary text-2xl font-medium" for="resource">E-books resource</p>
+              </div>
+              <div class="flex items-center gap-x-3 mb-6">
+                <i class="fa-regular fa-square-check text-2xl text-primary"></i>
+                <p class="text-secondary text-2xl font-medium" for="resource">Provided Video</p>
+              </div>
+              <div class="flex items-center gap-x-3">
+                <i class="fa-regular fa-square-check text-2xl text-primary"></i>
+                <p class="text-secondary text-2xl font-medium" for="resource">Connected with experts</p>
+              </div>
+            </div>
+          </div>
+          <!--------------------------------
+             --------------------------------
+            ----------- butto  -----------
+             ---------------------------------
+           ------------------------------- -->
+          <!--   -->
+          <div class="flex flex-col md:flex-row space-y-4 md:gap-x-8 items-center mt-6 md:mt-16 mb-24">
+            <button class="py-4 px-8 bg-primary rounded-md text-white text-xl font-base">
+              Start learn now
+            </button>
+            <div class="flex items-center gap-x-6 ">
+              <img src="/images/button/video play button.png" alt="" />
+              <p class="text-2xl font-base text-secondary">Watch video</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- banner photo  -->
+        <div class="mb-16">
+          <div class="flex flex-col space-y-8 items-center">
+            <div class="relative">
+              <img src="/images/banner/Product photo.png" alt="" />
+              <div
+                class=" flex items-center gap-x-3 py-1 px-3 bg-white rounded-md outline-none shadow-[0px_4px_16px_0px_rgba(197,197,197,0.40)] absolute bottom-4 right-32 sm:bottom-14 sm:right-80 md:bottom-20 md:right-80">
+                <p><svg xmlns="http://www.w3.org/2000/svg" width="33" height="33" viewBox="0 0 33 33" fill="none">
+                    <path
+                      d="M28.5299 16.5001L30.0479 13.8766C30.2304 13.5609 30.28 13.1857 30.1859 12.8335C30.0918 12.4813 29.8616 12.1809 29.5461 11.9983L26.9198 10.4803V7.45531C26.9198 7.09064 26.7749 6.7409 26.5171 6.48304C26.2592 6.22518 25.9095 6.08031 25.5448 6.08031H22.5212L21.0046 3.45544C20.8214 3.14045 20.5216 2.91026 20.1699 2.81469C19.9955 2.76741 19.8135 2.75522 19.6343 2.77882C19.4552 2.80243 19.2825 2.86135 19.1263 2.95219L16.5001 4.47019L13.8738 2.95081C13.558 2.76849 13.1827 2.71908 12.8305 2.81345C12.4782 2.90783 12.1779 3.13826 11.9956 3.45406L10.4776 6.08031H7.45394C7.08926 6.08031 6.73953 6.22518 6.48166 6.48304C6.2238 6.7409 6.07894 7.09064 6.07894 7.45531V10.4789L3.45269 11.9969C3.29598 12.0871 3.15863 12.2073 3.04852 12.3507C2.93842 12.4941 2.85773 12.6578 2.8111 12.8324C2.76446 13.0071 2.75279 13.1893 2.77677 13.3684C2.80075 13.5476 2.85989 13.7203 2.95081 13.8766L4.46881 16.5001L2.95081 19.1236C2.76929 19.4395 2.72005 19.8144 2.8138 20.1665C2.90756 20.5186 3.13672 20.8194 3.45131 21.0032L6.07756 22.5212V25.5448C6.07756 25.9095 6.22243 26.2592 6.48029 26.5171C6.73815 26.7749 7.08789 26.9198 7.45256 26.9198H10.4776L11.9956 29.5461C12.1173 29.7542 12.2911 29.927 12.4999 30.0475C12.7087 30.1681 12.9452 30.2322 13.1863 30.2336C13.4256 30.2336 13.6634 30.1703 13.8752 30.0479L16.4987 28.5299L19.1249 30.0479C19.4407 30.23 19.8157 30.2794 20.1678 30.1853C20.5199 30.0913 20.8204 29.8614 21.0032 29.5461L22.5198 26.9198H25.5434C25.9081 26.9198 26.2578 26.7749 26.5157 26.5171C26.7736 26.2592 26.9184 25.9095 26.9184 25.5448V22.5212L29.5447 21.0032C29.7011 20.9128 29.8382 20.7924 29.9481 20.649C30.058 20.5056 30.1386 20.3419 30.1852 20.1674C30.2318 19.9928 30.2435 19.8108 30.2197 19.6317C30.196 19.4526 30.1371 19.2799 30.0466 19.1236L28.5299 16.5001ZM13.0612 9.61131C13.6084 9.6115 14.1331 9.82904 14.5199 10.2161C14.9067 10.6031 15.1239 11.128 15.1237 11.6752C15.1235 12.2224 14.906 12.7471 14.5189 13.1339C14.1319 13.5207 13.607 13.7379 13.0598 13.7377C12.5126 13.7375 11.9879 13.52 11.6011 13.1329C11.2143 12.7459 10.9971 12.221 10.9973 11.6738C10.9975 11.1266 11.215 10.6019 11.6021 10.2151C11.9891 9.82833 12.514 9.61113 13.0612 9.61131ZM13.4737 22.8113L11.2737 21.1627L19.5237 10.1627L21.7237 11.8113L13.4737 22.8113ZM19.9362 23.3613C19.6652 23.3612 19.397 23.3078 19.1467 23.204C18.8964 23.1002 18.669 22.9482 18.4775 22.7565C18.286 22.5649 18.1341 22.3374 18.0305 22.087C17.9269 21.8367 17.8736 21.5684 17.8737 21.2974C17.8738 21.0265 17.9272 20.7582 18.031 20.5079C18.1348 20.2577 18.2868 20.0303 18.4785 19.8387C18.6701 19.6472 18.8976 19.4953 19.148 19.3917C19.3983 19.2881 19.6666 19.2348 19.9376 19.2349C20.4848 19.2351 21.0095 19.4527 21.3963 19.8397C21.783 20.2268 22.0002 20.7516 22.0001 21.2988C21.9999 21.846 21.7823 22.3707 21.3953 22.7575C21.0082 23.1443 20.4834 23.3615 19.9362 23.3613Z"
+                      fill="#FFA100" />
+                  </svg></p>
+                <p class="text-sm md:text-base">Permanent <br>
+                  Membership</p>
+              </div>
+            </div>
+            <div>
+              <p><svg xmlns="http://www.w3.org/2000/svg" width="52" height="11" viewBox="0 0 52 11" fill="none">
+                  <circle cx="25.781" cy="5.64915" r="5.35081" fill="#F66962" />
+                  <circle cx="4.37794" cy="5.64918" r="4.37794" fill="#DEDEDE" />
+                  <circle cx="47.1846" cy="5.64918" r="4.37794" fill="#DEDEDE" />
+                </svg></p>
+            </div>
+          </div>
+        </div>
+        <div class="flex flex-col gap-y-8">
+          <div class="flex items-center gap-x-3 py-2 px-8 rounded-md shadow-[0px_4px_16px_0px_rgba(197,197,197,0.20)]">
+            <h1 class="text-2xl border-b border-primary">01</h1>
+            <div class="text-sm text-secondary">
+              <p>100+</p>
+              <p>courses</p>
+            </div>
+          </div>
+          <div class="flex items-center gap-x-3 py-2 px-8 rounded-md shadow-[0px_4px_16px_0px_rgba(197,197,197,0.20)]">
+            <h1 class="text-2xl border-b border-primary">01</h1>
+            <div class="text-sm text-secondary">
+              <p>50+</p>
+              <p>Expert</p>
+            </div>
+          </div>
+          <div class="flex items-center gap-x-3 py-2 px-8 rounded-md shadow-[0px_4px_16px_0px_rgba(197,197,197,0.20)]">
+            <h1 class="text-2xl border-b border-primary">01</h1>
+            <div class="text-sm text-secondary">
+              <p>Lifetime+</p>
+              <p>access</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+    </header>
+
+    <!--------------------------------
+                ----------------------------------
+                ----------- count section ------------
+                ----------------------------------
+                ------------------------------- -->
+
+    <div class="bg-[#FBFBFB] py-8 px-16 rounded-md  flex justify-between mx-12 text-secondary">
+      <div class="space-y-3">
+        <h2 class="text-2xl font-bold">10,000+</h2>
+        <p class="text-sm text-center">Students</p>
+      </div>
+      <div class="border-l-2"></div>
+      <div class="space-y-3">
+        <h2 class="text-2xl font-bold">10,000+</h2>
+        <p class="text-sm text-center">Students</p>
+      </div>
+      <div class="border-l-2"></div>
+      <div class="space-y-3">
+        <h2 class="text-2xl font-bold">10,000+</h2>
+        <p class="text-sm text-center">Students</p>
+      </div>
+      <div class="border-l-2"></div>
+      <div class="space-y-3">
+        <h2 class="text-2xl font-bold">10,000+</h2>
+        <p class="text-sm text-center">Students</p>
+      </div>
+      <div class="border-l-2"></div>
+      <div class="space-y-3">
+        <h2 class="text-2xl font-bold">10,000+</h2>
+        <p class="text-sm text-center">Students</p>
+      </div>
+    </div>
+
+    <!-- enroll  -->
+    <section class="flex items-center gap-x-36 mt-36 text-secondary leading-loose mb-36">
+      <div class="relative">
+        <img src="/images/all/enrolle.png" alt="">
+        <img class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2" src="/images/all/icon/video-play.svg"
+          alt="">
+      </div>
+      <div>
+        <h1 class="text-5xl font-semibold">How to enrolle <br>
+          our courses</h1>
+        <p class="text-lg mt-5 mb-8">It is a long established fact that a reader will be distracted by the read <br>
+          more-or-less normal distribution
+          of letters,
+          as opposed to using 'Content <br> here, content here', making it look like readable English</p>
+        <ul class="list-disc text-2xl font-medium list-inside">
+          <li>Sign up first our site</li>
+          <li>Choos your course</li>
+          <li>See details of course</li>
+          <li>Enrolle course</li>
+          <button
+            class="mt-12 text-primary text-2xl font-medium border border-2 border-primary py-4 px-8 rounded-md">Learn
+            more</button>
+        </ul>
+      </div>
+    </section>
+
+    <!-- See our courses categories  -->
+
+    <section class="text-secondary leading-normal">
+      <div class="flex justify-between">
+        <h1 class="text-5xl font-semibold text-secondary">See our courses categories</h1>
+        <button class="text-primary text-2xl font-medium border border-2 border-primary py-4 px-8 rounded-md">View all
+          courses</button>
+      </div>
+      <!-- card  -->
+      <div class=" grid grid-cols-3 gap-6 mt-10">
+        <div class="text-center space-y-5 bg-[#FFF3F2] py-12 px-8 rounded-lg shadow-md">
+          <img class="mx-auto" src="/images/all/icon/graphic.svg" alt="">
+          <h2 class="text-2xl font-semibold">Graphic design</h2>
+          <p>It is a long established fact that a reader will <br> be distracted by the read moresing content <br>
+            here',
+            making it look like
+            readable English</p>
+        </div>
+        <div class="text-center space-y-5 bg-[#FDDBD9] py-12 px-8 rounded-lg shadow-md">
+          <img class="mx-auto" src="/images/all/icon/video-editing.svg" alt="">
+          <h2 class="text-2xl font-semibold">Graphic design</h2>
+          <p>It is a long established fact that a reader will <br> be distracted by the read moresing content <br>
+            here',
+            making it look like
+            readable English</p>
+        </div>
+        <div class="text-center space-y-5 bg-[#FFF3F2] py-12 px-8 rounded-lg shadow-md">
+          <img class="mx-auto" src="/images/all/icon/art.svg" alt="">
+          <h2 class="text-2xl font-semibold">Graphic design</h2>
+          <p>It is a long established fact that a reader will <br> be distracted by the read moresing content <br>
+            here',
+            making it look like
+            readable English</p>
+        </div>
+        <div class="text-center space-y-5 bg-[#FFF3F2] py-12 px-8 rounded-lg shadow-md">
+          <img class="mx-auto" src="/images/all/icon/photography.svg" alt="">
+          <h2 class="text-2xl font-semibold">Graphic design</h2>
+          <p>It is a long established fact that a reader will <br> be distracted by the read moresing content <br>
+            here',
+            making it look like
+            readable English</p>
+        </div>
+        <div class="text-center space-y-5 bg-[#FFF3F2] py-12 px-8 rounded-lg shadow-md">
+          <img class="mx-auto" src="/images/all/icon/typography.svg" alt="">
+          <h2 class="text-2xl font-semibold">Graphic design</h2>
+          <p>It is a long established fact that a reader will <br> be distracted by the read moresing content <br>
+            here',
+            making it look like
+            readable English</p>
+        </div>
+        <div class="text-center space-y-5 bg-[#FFF3F2] py-12 px-8 rounded-lg shadow-md">
+          <img class="mx-auto" src="/images/all/icon/digital-marketing.svg" alt="">
+          <h2 class="text-2xl font-semibold">Graphic design</h2>
+          <p>It is a long established fact that a reader will <br> be distracted by the read moresing content <br>
+            here',
+            making it look like
+            readable English</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Choice your course  -->
+    <section class="mt-36 text-secondary leading-normal mb-10">
+      <h1 class="text-5xl font-semibold text-center mb-5 ">Choice your course</h1>
+      <p class="text-center font-medium text-lg mb-12">It is a long established fact that a reader will be distracted by
+        the read more- <br>or-less normal distribution of
+        letters,
+        as opposed to using 'Content here, <br> content here', making it look like readable English</p>
+
+      <!-- courses card  -->
+      <div class="flex justify-between items-center mb-12">
+        <ul class="flex gap-x-10">
+          <li class="text-2xl font-semibold text-primary">All category</li>
+          <li class="text-2xl font-semibold text-secondary">Graphics design</li>
+          <li class="text-2xl font-semibold text-secondary">UX/UI design</li>
+          <li class="text-2xl font-semibold text-secondary">Web development</li>
+          <li class="text-2xl font-semibold text-secondary">Marketing</li>
+        </ul>
+        <button class="text-primary text-lg font-semibold py-4 px-8 border border-2 border-primary rounded-lg">See
+          all</button>
+      </div>
+
+      <!-- card  -->
+      <div class="grid grid-cols-3">
+        <div class="border-2 rounded-lg">
+          <div>
+            <img class="w-full" src="/images/all/courses/Rectangle 30.png" alt="">
+          </div>
+          <div class="p-5">
+            <div class="flex justify-between my-5 items-center ">
+              <div>
+                <h2 class="text-2xl font-semibold">UX/UI Design</h2>
+                <p class="text-base font-medium">UI/UX Design For Advance</p>
+              </div>
+              <div class="flex gap-x-3 text-2xl">
+                <p class="text-primary">$60</p>
+                <p class="text-[#BFBFBF] line-through">$90</p>
+              </div>
+            </div>
+            <hr>
+            <div class="flex py-5 justify-between">
+              <div class="flex items-center gap-x-1">
+                <img src="/images/all/icon/clock.svg" alt="">
+                <p class="text-md mr-5">24hr 20min</p>
+                <p class="text-md">30 class</p>
+              </div>
+              <div class="flex">
+                <ul class="text-[#FFA000] flex">
+                  <li><i class="fa-solid fa-star"></i></li>
+                  <li><i class="fa-solid fa-star"></i></li>
+                  <li><i class="fa-solid fa-star"></i></li>
+                  <li><i class="fa-solid fa-star"></i></li>
+                  <li><i class="fa-solid fa-star-half-stroke"></i></li>
+                </ul>
+                <p>4.5</p>
+              </div>
+            </div>
+            <hr>
+            <button class="bg-primary text-white text-lg py-3 px-8 rounded-lg mt-5">Enrol Now</button>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+</body>
+
+</html>

@@ -1,0 +1,7 @@
+* {
+  font-family: inter;
+}
+
+input[type="checkbox"] {
+  outline: 3px solid #f66962;
+}
